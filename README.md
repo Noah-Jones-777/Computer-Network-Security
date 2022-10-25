@@ -1,13 +1,13 @@
 # Computer-Network-Security
 programs from my CYEN 310 Computer network security class
 
-## Osiris_binary program file
+## Osiris_binary.py program file
 This is a Binary decoder python program that can auto detect and decode 7 or 8 bit binary encoded files
 Syntax Example:
 ```
 python Osiris_binary.py File_to_decode.txt
 ```
-## Osiris_xor program file
+## Osiris_xor.py program file
 This is a XOR encrypter and decrypter program that implements the XOR cryptography method
 Encryption Syntax example:
 ```
@@ -17,7 +17,7 @@ Decryption Syntax Example:
 ```
 pyhton Osiris_xor.py < ciphertext.txt > extracted_plaintext.txt
 ```
-## python steganography file
+## steg.py steganography file
 This a steganography program that can both store and retrieve hidden files either via bytes or bits
 The required flags include: 
 - (-r or -s) for retrieve or store
